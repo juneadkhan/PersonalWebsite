@@ -8,18 +8,20 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- #overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: block; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,1); /* Black background with opacity */
-  z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+.fontsizeMain{
+  font-size: 2.9rem;
+}
+
+.fontsizeSec{
+  font-size: 1.8rem;
+}
+
+.fontsizeLow{
+  font-size: 1.4rem;
+}
+
+.fontsize1{
+  font-size: 1rem;
 }
 
  .workCard{
@@ -6968,7 +6970,7 @@
   }
   
   .text-5xl {
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
   
   .text-6xl {
@@ -16295,7 +16297,15 @@
     }
   
     .sm\:text-5xl {
-      font-size: 3rem;
+      font-size: 2.9rem;
+    }
+
+    .sm\:fontsizeSec {
+      font-size: 1.8rem;
+    }
+
+    .sm\:fontsizeLow {
+      font-size: 1.4rem;
     }
   
     .sm\:text-6xl {
@@ -25384,7 +25394,15 @@
     }
   
     .md\:text-5xl {
-      font-size: 3rem;
+      font-size: 2.9rem;
+    }
+
+    .md\:fontsizeLow {
+      font-size: 1.4rem;
+    }
+
+    .md\:fontsizeSec {
+      font-size: 1.8rem;
     }
   
     .md\:text-6xl {
@@ -34473,7 +34491,15 @@
     }
   
     .lg\:text-5xl {
-      font-size: 3rem;
+      font-size: 2.9rem;
+    }
+
+    .lg\:fontsizeLow {
+      font-size: 1.4rem;
+    }
+
+    .lg\:fontsizeSec {
+      font-size: 1.8rem;
     }
   
     .lg\:text-6xl {
@@ -43562,7 +43588,15 @@
     }
   
     .xl\:text-5xl {
-      font-size: 3rem;
+      font-size: 2.9rem;
+    }
+
+    .xl\:fontsizeLow {
+      font-size: 1.4rem;
+    }
+
+    .xl\:fontsizeSec {
+      font-size: 1.8rem;
     }
   
     .xl\:text-6xl {
