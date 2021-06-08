@@ -8,6 +8,59 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ #overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,1); /* Black background with opacity */
+  z-index: 100; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+ .workCard{
+  background: #0e0e0e;
+  padding: 3rem;
+  border-radius: 2rem;
+
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+  }
+
+  .workCard:hover {
+    transform: scale(1.05);
+  }
+
+  .mainPic img:hover {
+    transform: scale(1.05);
+  }
+
+  .mainPic img{
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+  }
+
+
+  .dribbble-shot {
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+  }
+
+  .dribbble-shot:hover {
+    transform: scale(1.05);
+  }
+ 
+
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -9787,6 +9840,18 @@
   .social-link-2:hover svg path {
     opacity: 1;
   }
+
+  .social-link-3 svg path {
+    fill: white;
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-link-3:hover svg path {
+    opacity: 1;
+  }
   
   .js-header-content.text-pinkLight svg path {
     fill: #FCD6E9;
@@ -9817,6 +9882,22 @@
     padding-right: 1.5rem;
     margin-bottom: 3rem;
   }
+
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #4691f6;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
   
   @media (min-width: 768px) {
     .dribbble-shot {
@@ -9836,15 +9917,11 @@
     transform: scale(1.05);
   }
   
-  .dribbble-shot h4 {
-    margin-top: 1rem;
-  }
-  
   .dribbble-shot p {
     margin: 0;
     margin-top: 0.25rem;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 0.85rem;
     color: #fff;
     opacity: 0.5;
   }
@@ -16539,7 +16616,7 @@
     }
   
     .sm\:w-4\/12 {
-      width: 33.333333%;
+      width: 80%;
     }
   
     .sm\:w-5\/12 {
