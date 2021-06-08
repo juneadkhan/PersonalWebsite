@@ -19,8 +19,8 @@ export const loadDOM = function (listOfJobs) {
     <div class="mt-2 md:mt-0 text-purpleLight">
       <p class="m-0 leading-normal text-xl"> ${job.bullet1}</p>
 
-      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full uppercase last:mr-0 mr-1" style="background: #252222">
-      ${job.tag}
+      <span class="text-xs font-semibold inline-block mt-4 py-1 px-2 uppercase rounded-full uppercase last:mr-0 mr-1" style="background: #252222">
+      ${job.tag}<span class="hidden sm:inline">${job.tagExtra} </span>
     </span>
  
     </div>
@@ -48,7 +48,8 @@ export const loadDOM = function (listOfJobs) {
     link: "https://www.jpmorganchase.com/",
     bullet1: "CIB Architecture Governance",
     bullet2: "",
-    tag: 'Java'
+    tag: 'Java',
+    tagExtra: ''
 
   
     
@@ -61,17 +62,10 @@ export const loadDOM = function (listOfJobs) {
     location: "London, UK",
     img: "https://www.lshtm.ac.uk/themes/custom/lshtm/images/logo-white.svg",
     link: "https://www.lshtm.ac.uk/",
-    bullet1: "Collaborated with international partners across 3 countries (UK, US and China) for a study on elderly sexual health. Co-authored studies and directed analysis of the NATSAL and ELSA databases to garner and communicate insights from the largest and most detailed scientific studies of sexual behaviour in the world",
+    bullet1: "Lead author of paper identifying subgroups within the elderly population by implementing Latent Class andDescriptive Analyses on the largest and most detailed scientific studies of sexual health in the world",
     bullet2: "",
-    tag: "SAS, Python, Latent Class Analysis, Excel, JMP",
-    tag1: `<span class="tag is-link is-light" style="background: #38373d;  color: #E2D5FE;">SAS</span>`,
-    tag2: `<span class="tag is-link is-light" style="background: #38373d;  color: #E2D5FE;">Python</span>`,
-    tag3: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Latent Class Analysis</span>`,
-    tag4: ``,
-    tag5: `<span class="tag is-danger is-light" style="background: #38373d;  color: #E2D5FE;">Excel</span>`,
-    tag6: `<span class="tag is-danger is-light" style="background: #38373d;  color: #E2D5FE;">JMP</span>`,
-    tag7: ``,
-    tag8: ``
+    tag: "SAS, Python, Latent Class Analysis",
+    tagExtra: ', Excel, JMP'
   
   
   },
@@ -83,18 +77,10 @@ export const loadDOM = function (listOfJobs) {
     location: "Remote, USA",
     img: "https://www.aptusdatalabs.com/wp-content/uploads/2020/10/1200px-Google_Cloud_Logo.svg.png",
     link: "https://cloud.google.com/",
-    bullet1: "Guided by Google Engineers to use Google Cloud Platform tools such as BigQuery, DataPrep and Data Studio. Analysed over 20 large public datasets using advanced SQL and other GCP tools to garner and communicate insights.",
+    bullet1: "Developed a forecasting ML model to predict and suggest optimal cab fare for NYC taxi cabs using BigQueryML and training over a 76GB public taxi trip dataset and optimized using feature engineering",
     bullet2: "",
-    tag: "SQL, Python, Machine Learning, BigQuery, Google Cloud Platform",
-    tag1: `<span class="tag is-link is-light" style="background: #38373d;  color: #E2D5FE;">SQL</span>`,
-    tag2: `<span class="tag is-link is-light" style="background: #38373d;  color: #E2D5FE;">Python</span>`,
-    tag3: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Machine Learning</span>`,
-    tag4: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Cloud Computing</span>`,
-    tag5: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Data Visualization</span>`,
-    tag6: `<span class="tag is-danger is-light" style="background: #38373d;  color: #E2D5FE;">BigQuery</span>`,
-    tag7: `<span class="tag is-danger is-light" style="background: #38373d;  color: #E2D5FE;">Google Cloud Platform</span>`,
-    tag8: ``
-  
+    tag: "SQL, Python, Google Cloud Platform",
+    tagExtra: ', Machine Learning, BigQuery'
   },
   {
     id: 4,
@@ -104,16 +90,9 @@ export const loadDOM = function (listOfJobs) {
     location: "Chapel Hill, NC",
     img: "https://d1gntqhqj0rbcs.cloudfront.net/assets/111/whiteunclogo.png",
     link: "https://www.unc.edu/",
-    bullet1: "Reduced downtime 15% by working with a team of 12 technicians to maintain ITS Hardware/Software in UNC Classrooms",
+    bullet1: "Ensured proper functioning of IT equipment for all UNC Classrooms by completing maintenance on Software and Hardware",
     bullet2: "",
     tag: "Hardware, Tech Support",
-    tag1: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Hardware</span>`,
-    tag2: `<span class="tag is-success is-light" style="background: #38373d;  color: #E2D5FE;">Tech Support</span>`,
-    tag3: ``,
-    tag4: ``,
-    tag5: ``,
-    tag6: ``,
-    tag7: ``,
-    tag8: ``
+    tagExtra: ''
   }
   ];
