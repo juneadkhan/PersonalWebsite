@@ -2,7 +2,6 @@ export const loadDOM = function (listOfJobs) {
     const $workSection = $('#workSection');
   
     listOfJobs.forEach(job => {
-    console.log(job.tag1)
       $workSection.append(workCard(job))
   });
   };
