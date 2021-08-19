@@ -62,7 +62,7 @@ export const loadDOM = function (listOfJobs) {
     location: "London, UK",
     img: "https://www.lshtm.ac.uk/themes/custom/lshtm/images/logo-white.svg",
     link: "https://www.lshtm.ac.uk/",
-    bullet1: "Lead author of paper identifying subgroups within the elderly population by implementing Latent Class andDescriptive Analyses on the largest and most detailed scientific studies of sexual health in the world",
+    bullet1: "Lead author of paper identifying subgroups within the elderly population by implementing Latent Class and Descriptive Analyses on the largest and most detailed scientific studies of sexual health in the world",
     bullet2: "",
     tag: "SAS, Python, Latent Class Analysis",
     tagExtra: ', Excel, JMP'
