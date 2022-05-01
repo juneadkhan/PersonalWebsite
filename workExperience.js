@@ -41,14 +41,14 @@ export const loadDOM = function (listOfJobs) {
     {
       id: 1,
       companyName: "Microsoft",
-      jobTitle: "Incoming Software Engineer Intern",
+      jobTitle: "Software Engineer Intern",
       dates: "May 2022",
       location: "Seattle, WA",
       img: "https://www.nicepng.com/png/full/134-1348968_microsoft-makecode-logo-microsoft-logo-transparent-white.png",
       link: "http://www.microsoft.com/",
-      bullet1: "",
+      bullet1: "Incoming SWE Intern. Cloud + AI.",
       bullet2: "",
-      tag: '',
+      tag: 'Cloud, AI',
       tagExtra: ''
   
     
