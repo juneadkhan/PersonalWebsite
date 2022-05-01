@@ -39,7 +39,23 @@ export const loadDOM = function (listOfJobs) {
   
   const workData = [
     {
-    id: 1,
+      id: 1,
+      companyName: "Microsoft",
+      jobTitle: "Incoming Software Engineer Intern",
+      dates: "May 2022",
+      location: "Seattle, WA",
+      img: "https://www.nicepng.com/png/full/134-1348968_microsoft-makecode-logo-microsoft-logo-transparent-white.png",
+      link: "http://www.microsoft.com/",
+      bullet1: "",
+      bullet2: "",
+      tag: '',
+      tagExtra: ''
+  
+    
+      
+    }, 
+    {
+    id: 2,
     companyName: "JP Morgan Chase & Co",
     jobTitle: "Software Engineer Intern",
     dates: "June 2021 to August 2021",
@@ -55,7 +71,7 @@ export const loadDOM = function (listOfJobs) {
     
   }, 
   {
-    id: 2,
+    id: 3,
     companyName: "London School of Hygiene and Tropical Medicine",
     jobTitle: "Associate Research Consultant",
     dates: "February 2021 to Present",
@@ -70,7 +86,7 @@ export const loadDOM = function (listOfJobs) {
   
   },
   {
-    id: 3,
+    id: 4,
     companyName: "Google Cloud",
     jobTitle: "Cloud Data Analyst Programme",
     dates: "July 2020 to August 2020",
@@ -83,7 +99,7 @@ export const loadDOM = function (listOfJobs) {
     tagExtra: ', Machine Learning, BigQuery'
   },
   {
-    id: 4,
+    id: 5,
     companyName: "The University of North Carolina at Chapel Hill",
     jobTitle: "Preventative Maintenance Technician",
     dates: "February 2020 to July 2020",
