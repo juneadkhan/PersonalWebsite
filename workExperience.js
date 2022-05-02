@@ -60,7 +60,7 @@ export const loadDOM = function (listOfJobs) {
     jobTitle: "Software Engineer Intern",
     dates: "June 2021 to August 2021",
     location: "Bournemouth, UK",
-    img: "https://www.nicepng.com/png/detail/358-3581931_jp-morgan-investment-bank-logo.png",
+    img: "https://www.jpmorganchase.com/content/dam/shared/logos/logo-jpmc-white.png",
     link: "https://www.jpmorganchase.com/",
     bullet1: "Automated certification checks in application approval process by modernizing manual workflow via REST APIs,reducing processing time by 1200% while improving governance procedures for audit.",
     bullet2: "",
