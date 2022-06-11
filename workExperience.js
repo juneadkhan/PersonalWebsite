@@ -76,7 +76,7 @@ export const loadDOM = function (listOfJobs) {
     jobTitle: "Associate Research Consultant",
     dates: "February 2021 to Present",
     location: "London, UK",
-    img: "https://www.lshtm.ac.uk/themes/custom/lshtm/images/logo-white.svg",
+    img: "https://domain7.com/wp-content/uploads/2020/01/londonSchool-logo.png",
     link: "https://www.lshtm.ac.uk/",
     bullet1: "Lead author of paper identifying subgroups within the elderly population by implementing Latent Class and Descriptive Analyses on the largest and most detailed scientific studies of sexual health in the world",
     bullet2: "",
