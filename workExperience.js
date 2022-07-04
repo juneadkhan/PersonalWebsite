@@ -11,7 +11,7 @@ export const loadDOM = function (listOfJobs) {
     <div class="workCard mb-8 md:flex">
     <div class="md:w-1/3 mr-12 flex-none">
     <figure class="image mb-3 mr-5">
-    <a href=${job.link} target="_blank"><img src=${job.img} alt="Placeholder image"></a>
+    <a class="img" href=${job.link} target="_blank"><img src=${job.img} alt="Placeholder image"></a>
   </figure>
       <p class="m-0 mt-1 leading-normal text-xl text-white opacity-50 font-bold">${job.jobTitle}</p>
       <p class="m-0 mt-1 leading-normal text-base text-white opacity-50">${job.dates}</p>
@@ -60,7 +60,7 @@ export const loadDOM = function (listOfJobs) {
     jobTitle: "Software Engineer Intern",
     dates: "June 2021 to August 2021",
     location: "Bournemouth, UK",
-    img: "https://www.jpmorganchase.com/content/dam/shared/logos/logo-jpmc-white.png",
+    img: "jpmc.svg",
     link: "https://www.jpmorganchase.com/",
     bullet1: "Automated certification checks in application approval process by modernizing manual workflow via REST APIs,reducing processing time by 1200% while improving governance procedures for audit.",
     bullet2: "",

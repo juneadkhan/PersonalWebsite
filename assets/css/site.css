@@ -9807,7 +9807,7 @@
     right: 0;
     height: 2px;
     border-radius: 1px;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.1);
   }
   
   a:before {
@@ -9818,6 +9818,32 @@
   a:hover:before {
     width: 100%;
   }
+
+  /* Override for Images */
+  a.img:after,
+  a.img:before {
+    position: absolute;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    content: '';
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    border-radius: 1px;
+    background-color: rgba(255,255,255,0);
+  }
+  
+  a.img:before {
+    width: 0;
+    background-color: rgba(255,255,255,0);
+  }
+  
+  a.img:hover:before {
+    width: 100%;
+  }
+  
   
   /* Component styling */
   
