@@ -14,7 +14,9 @@ export const loadDOM = function (listOfJobs) {
     <a class="img" href=${job.link} target="_blank"><img src=${job.img} alt="Placeholder image"></a>
   </figure>
       <p class="m-0 mt-1 leading-normal text-xl text-white opacity-50 font-bold">${job.jobTitle}</p>
-      <p class="m-0 mt-1 leading-normal text-base text-white opacity-50">${job.dates}</p>
+      <p class="m-0 mt-1 leading-normal text-sm text-white opacity-50">${job.dates}</p>
+      <p class="m-0 mt-1 leading-normal text-sm text-white opacity-50">${job.location}</p>
+
     </div>
     <div class="mt-2 md:mt-0 text-purpleLight">
       <p class="m-0 leading-normal text-xl"> ${job.bullet1}</p>
@@ -42,13 +44,13 @@ export const loadDOM = function (listOfJobs) {
       id: 1,
       companyName: "Microsoft",
       jobTitle: "Software Engineer Intern",
-      dates: "May 2022",
-      location: "Seattle, WA",
+      dates: "May 2022 - Aug 2022",
+      location: "Redmond, WA",
       img: "https://www.nicepng.com/png/full/134-1348968_microsoft-makecode-logo-microsoft-logo-transparent-white.png",
       link: "http://www.microsoft.com/",
-      bullet1: "Incoming SWE Intern. Cloud + AI.",
+      bullet1: "Worked on the future of media streaming by building an Analytics SDK for all HTML5 Video Elements to collect Quality of Experience, Video and Demographic metrics.",
       bullet2: "",
-      tag: 'Cloud, AI',
+      tag: 'AZURE MEDIA SERVICES, HLS, DASH, TYPESCRIPT, ADAPTIVE BITRATE STREAMING',
       tagExtra: ''
   
     
@@ -58,7 +60,7 @@ export const loadDOM = function (listOfJobs) {
     id: 2,
     companyName: "JP Morgan Chase & Co",
     jobTitle: "Software Engineer Intern",
-    dates: "June 2021 to August 2021",
+    dates: "June 2021 - August 2021",
     location: "Bournemouth, UK",
     img: "jpmc.svg",
     link: "https://www.jpmorganchase.com/",
@@ -74,7 +76,7 @@ export const loadDOM = function (listOfJobs) {
     id: 3,
     companyName: "London School of Hygiene and Tropical Medicine",
     jobTitle: "Associate Research Consultant",
-    dates: "February 2021 to Present",
+    dates: "February 2021 - Present",
     location: "London, UK",
     img: "https://domain7.com/wp-content/uploads/2020/01/londonSchool-logo.png",
     link: "https://www.lshtm.ac.uk/",
@@ -89,7 +91,7 @@ export const loadDOM = function (listOfJobs) {
     id: 4,
     companyName: "Google Cloud",
     jobTitle: "Cloud Data Analyst Programme",
-    dates: "July 2020 to August 2020",
+    dates: "July 2020 - August 2020",
     location: "Remote, USA",
     img: "https://www.aptusdatalabs.com/wp-content/uploads/2020/10/1200px-Google_Cloud_Logo.svg.png",
     link: "https://cloud.google.com/",
@@ -102,7 +104,7 @@ export const loadDOM = function (listOfJobs) {
     id: 5,
     companyName: "The University of North Carolina at Chapel Hill",
     jobTitle: "Preventative Maintenance Technician",
-    dates: "February 2020 to July 2020",
+    dates: "February 2020 - July 2020",
     location: "Chapel Hill, NC",
     img: "https://d1gntqhqj0rbcs.cloudfront.net/assets/111/whiteunclogo.png",
     link: "https://www.unc.edu/",
